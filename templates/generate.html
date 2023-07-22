@@ -1,0 +1,14 @@
+{% extends 'main.html'%}
+
+{% block title %}CourseCounduit || A University In Your Pocket{% endblock title%}
+{% block content %}
+<h1>Your roadmap for</h1>
+<div>
+    {%for items in yt%}
+    <div>
+        <img src="{% static '{{ ytdict.thumbnail{{itmes}} }}' %}" alt="" sizes="100px" srcset="100px">
+        h5
+    </div>
+    {endfor}
+</div>
+{% endblock %}

@@ -1,0 +1,98 @@
+section {
+  background-color: #303030;
+}
+
+body {
+  overflow: hidden;
+  background-color: #303030;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  z-index: 999;
+  top: var(--y);
+  left: var(--x);
+  right: 0;
+  bottom: 0;
+  width: 5em;
+  height: 5em;
+  border-width: 20px;
+  border-color: #8fb8db;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  mix-blend-mode: difference;
+}
+
+.nav-link {
+  z-index: 998;
+  color: #ebebeb;
+}
+
+#Hero {
+  background-color: #303030;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+}
+#Hero h1 {
+  color: #ebebeb;
+  font-size: 3.5rem;
+}
+#Hero h2 {
+  color: #8fb8db;
+}
+
+.layer {
+  background-image: url("../images/Wave.svg");
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+#custom-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease-in-out;
+}
+
+#little-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+#Description {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
