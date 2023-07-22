@@ -1,0 +1,27 @@
+CSS3
+Responsive Design
+CSS Frameworks (Bootstrap)
+CSS Grid and Flexbox
+CSS-in-JS
+CSS Preprocessors (Sass)
+CSS Architecture
+CSS Animation
+SVG
+HTML5
+Semantic HTML
+Accessibility
+Web Performance Optimization
+Web Accessibility Best Practices
+SEO Basics
+HTTP/HTTPS and Cookies
+Web Security
+OWASP Top 10
+ES6
+DOM Manipulation
+AJAX
+Node.js
+MongoDB
+ReactJS
+Deployment and Hosting
+APIs and RESTful Web Services
+GraphQL
